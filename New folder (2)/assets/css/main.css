@@ -1,0 +1,60 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  background-color: #AC94FF;
+}
+header nav {
+  width: 100%;
+  height: auto;
+  background-color: #AC94FF;
+}
+header nav .collapse {
+  justify-content: flex-end;
+}
+header nav .collapse .navbar-nav .nav-item a {
+  color: white;
+}
+header nav .collapse .navbar-nav .nav-item .drop1:hover .dropdown-menu {
+  display: block;
+}
+header nav .collapse .navbar-nav .nav-item .drop2 a {
+  color: black;
+}
+
+#improved {
+  background-image: url(/assets/img/banner-bg\ \(1\).jpg);
+  width: 100%;
+  height: 550px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+#improved .container .row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#improved .container .row .view {
+  width: 500px;
+  height: 200px;
+}
+#improved .container .row .view h1 {
+  font-size: 60px;
+  color: white;
+}
+#improved .container .row .view .view-btn {
+  background: #fff;
+  border-radius: 0;
+  color: #222;
+  padding-left: 10px;
+  padding: 10px;
+  border: 1px solid white;
+  font-weight: 500;
+}
+#improved .container .row .view .view-btn:hover {
+  background-color: transparent !important;
+}
